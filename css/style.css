@@ -8,10 +8,11 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --color-white: #ffffff;
+  --primary-bg-color: #e5e5e5;
 }
 
 body {
-  background-color: var(--color-white);
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
@@ -37,11 +38,9 @@ a {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.logo-color {
+.logo-head {
   color: var(--primary-text-color);
 }
 
@@ -150,15 +149,6 @@ a {
 }
 
 .logo-footer {
-  font-family: Raleway, sans-serif;
-  color: var(--accent-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.color-footer {
   color: var(--color-white);
 }
 
@@ -167,8 +157,23 @@ a {
   line-height: 1.7;
 
   letter-spacing: 0.03em;
-
   color: var(--color-white);
-  border: 1px solid #000000;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Портфолио */
+.work-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.work-text {
+  font-size: 16px;
+  line-height: 1.8;
+
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
