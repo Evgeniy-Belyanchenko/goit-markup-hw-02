@@ -62,6 +62,8 @@ a {
 .nav-link:focus,
 .contacts:hover,
 .contacts:focus,
+.contacts-footer:hover,
+.contacts-footer:focus,
 .city:focus,
 .city:hover {
   color: var(--accent-color);
